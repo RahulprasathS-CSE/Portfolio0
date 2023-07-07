@@ -1,0 +1,91 @@
+.t1:hover{
+    color: white ;
+    background-color:rgb(115, 107, 107);
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+.t1{
+    width: 100%;
+    height: 100px;
+    color:black;
+    background-color: #e3e2e2;
+    border-color: rgb(16, 15, 15);
+}
+.phn{
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17;
+    font-weight: 1000;
+    margin: -70 700;
+}
+.mail{
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17;
+    font-weight: 1000;
+    margin: -30 700;
+}
+.pic{
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.pic:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+nav{
+    width: 70%;
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+    margin: -480 480;
+}
+ul{
+    padding: 0;
+    margin:0 ;
+    padding: 0px 40px;
+    list-style: none;
+    text-align: center;
+}
+li{
+    float: left;
+    text-align: center;
+    display: inline;
+}
+nav a{
+    width: 100%;
+    display: block;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+nav a:hover{
+    align-items: center;
+    background: rgb(115, 107, 107);
+    color:white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.m{
+    width: 422px;
+}
+.app{
+    display: flex;
+    padding: 10px 20px ;
+    margin: -0px 1100px;
+    margin-top: -325px;
+}
+.app1:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.app2:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.app3:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
